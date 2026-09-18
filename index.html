@@ -263,7 +263,6 @@ form.addEventListener('submit', async function(e){
   const data = {
     nombre: document.getElementById('nombre').value.trim(),
     asistencia: document.querySelector('input[name="asistencia"]:checked')?.value || '',
-    acompanante: document.getElementById('acompanante').value.trim(),
     origen: origenFinal,
     bus: document.getElementById('bus').value,
     alergias: document.getElementById('alergias').value.trim(),
